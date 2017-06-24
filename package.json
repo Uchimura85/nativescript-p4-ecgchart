@@ -1,0 +1,149 @@
+{
+  "_args": [
+    [{
+        "raw": "nativescript-ecgchart",
+        "scope": null,
+        "escapedName": "nativescript-ecgchart",
+        "name": "nativescript-ecgchart",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "F:\\SportsApp"
+    ],
+    [{
+        "raw": "nativescript-ecgchart@git+https://github.com/a0af/nativescript-p2.git",
+        "scope": null,
+        "escapedName": "nativescript-ecgchart",
+        "name": "nativescript-ecgchart",
+        "rawSpec": "git+https://github.com/a0af/nativescript-p2.git",
+        "spec": "git+https://github.com/a0af/nativescript-p2.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:a0af/nativescript-p2.git",
+          "sshUrl": "git+ssh://git@github.com/a0af/nativescript-p2.git",
+          "httpsUrl": "git+https://github.com/a0af/nativescript-p2.git",
+          "gitUrl": "git://github.com/a0af/nativescript-p2.git",
+          "shortcut": "github:a0af/nativescript-p2",
+          "directUrl": "https://raw.githubusercontent.com/a0af/nativescript-p2/master/package.json"
+        }
+      },
+      "G:\\work\\nativescript\\sportsapp---nativescript"
+    ],
+    [{
+        "raw": "g:/nativescript-ecgchart",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "g:/nativescript-ecgchart",
+        "spec": "g:\\nativescript-ecgchart",
+        "type": "directory"
+      },
+      "G:\\work\\nativescript\\plugin\\ecg-chart\\demo"
+    ]
+  ],
+  "_from": "git+https://github.com/a0af/nativescript-p2.git",
+  "_id": "nativescript-ecgchart@1.1.2",
+  "_inCache": true,
+  "_location": "/nativescript-ecgchart",
+  "_nodeVersion": "5.7.1",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/nativescript-ecgchart-1.1.2.tgz_1480957472071_0.017940611112862825"
+  },
+  "_npmUser": {
+    "name": "bradmartin",
+    "email": "bradmartin0905@gmail.com"
+  },
+  "_npmVersion": "3.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "g:/nativescript-ecgchart",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "g:/nativescript-ecgchart",
+    "spec": "g:\\nativescript-ecgchart",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/a0af/nativescript-p2.git#7874cc227db2a17366643aa28ddfc922437e5b5f",
+  "_shasum": "7a3b5bbd6efc2b937028a11828e29694c9a1d374",
+  "_shrinkwrap": null,
+  "_spec": "g:/nativescript-ecgchart",
+  "_where": "G:\\work\\nativescript\\plugin\\ecg-chart\\demo",
+  "author": {
+    "name": "Brad Martin",
+    "email": "bradmartinwaynemartin@gmail.com",
+    "url": "https://github.com/bradmartin"
+  },
+  "bugs": {
+    "url": "https://github.com/bradmartin/nativescript-ecgchart/issues"
+  },
+  "contributors": [{
+      "name": "Leo Caseiro",
+      "email": "leobok@gmail.com",
+      "url": "https://github.com/leocaseiro"
+    },
+    {
+      "name": "Nathan Walker",
+      "email": "walkerrunpdx@gmail.com",
+      "url": "https://github.com/NathanWalker"
+    }
+  ],
+  "dependencies": {},
+  "description": "A NativeScript plugin to provide a way to capture any drawing (signatures are a common use case) from the device screen.",
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "5e8f35f5d07743393c2d20f280ea837243c1c34d",
+    "tarball": "https://registry.npmjs.org/nativescript-ecgchart/-/nativescript-ecgchart-1.1.2.tgz"
+  },
+  "gitHead": "ef397d7a88683e778e321ab2db72ff8302fa740d",
+  "homepage": "https://github.com/bradmartin/nativescript-ecgchart",
+  "keywords": [
+    "NativeScript",
+    "native",
+    "script",
+    "signature",
+    "drawing",
+    "drawing pad",
+    "bradmartin",
+    "Thorum"
+  ],
+  "license": "Apache-2.0",
+  "main": "ecgchart",
+  "maintainers": [{
+    "name": "bradmartin",
+    "email": "bradmartin0905@gmail.com"
+  }],
+  "name": "nativescript-ecgchart",
+  "nativescript": {
+    "platforms": {
+      "android": "2.1.1",
+      "ios": "2.1.1"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradmartin/nativescript-ecgchart.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf demo/node_modules demo/lib demo/platforms",
+    "demo.android": "npm run preparedemo; cd demo; tns run android",
+    "demo.ios": "npm run preparedemo; cd demo; tns emulate ios",
+    "preparedemo": "npm run build; cd demo; tns plugin remove nativescript-ecgchart; tns plugin add ..; tns install",
+    "setup": "npm i; cd demo; npm install; cd ..; npm run build; cd demo; tns plugin add ..; cd .."
+  },
+  "typings": "index.d.ts",
+  "version": "1.1.2"
+}
